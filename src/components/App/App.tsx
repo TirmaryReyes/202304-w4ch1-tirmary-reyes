@@ -1,4 +1,9 @@
+import Button from "../Button/Button";
 import Info from "../Info/Info";
+
+const markAllGentlemen = () => {
+  return;
+};
 
 const App = (): JSX.Element => {
   return (
@@ -8,6 +13,7 @@ const App = (): JSX.Element => {
       </header>
       <section className="controls">
         <Info />
+        <Button text="Marcar todos" actionOnClick={markAllGentlemen} />
       </section>
     </div>
   );
